@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Button } from 'react-bootstrap';
 import Header from './header';
 import Content from './content';
 import Footer from './footer';
@@ -12,7 +11,6 @@ class App extends React.Component {
       <div className="app">
         <Header />
         <Content />
-        <Button>Click me!</Button>
         <Footer />
       </div>
     );
